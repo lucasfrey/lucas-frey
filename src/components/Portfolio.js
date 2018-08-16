@@ -12,7 +12,7 @@ class Portfolio extends Component {
               <div key="enroller" className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="https://great-walks-nz.netlify.com/" target="_blank" rel="noopener noreferrer" title="enroller">
-                    <img alt="enroller" src="images/portfolio/gw.png" />
+                    <img alt="enroller" src="./images/portfolio/gw.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>Great Walks NZ</h5>
