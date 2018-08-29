@@ -10,13 +10,13 @@ import Portfolio from '../components/Portfolio';
 import Layout from '../components/layout'
 
 const IndexPage = () => (
-  <Layout>
-    <Header />
-    <About />
-    <Resume />
-    <Portfolio />
-    <Footer />
-  </Layout>
+	<Layout>
+		<Header />
+		<About />
+		<Resume />
+		<Portfolio />
+		<Footer />
+	</Layout>
 )
 
 export default IndexPage

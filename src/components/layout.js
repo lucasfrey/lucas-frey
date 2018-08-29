@@ -10,8 +10,8 @@ import '../css/layout.css';
 import '../css/media-queries.css';
 
 const Layout = ({ children, data }) => (
-  <StaticQuery
-    query={graphql`
+	<StaticQuery
+		query={graphql`
       query SiteTitleQuery {
         site {
           siteMetadata {
@@ -20,32 +20,32 @@ const Layout = ({ children, data }) => (
         }
       }
     `}
-    render={data => (
-      <>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
-        >
-          <html lang="en" />
-        </Helmet>
-        <div
-          style={{
-            margin: '0 auto',
-            paddingTop: 0,
-          }}
-        >
-          {children}
-        </div>
-      </>
-    )}
-  />
+		render={data => (
+			<>
+				<Helmet
+					title={data.site.siteMetadata.title}
+					meta={[
+						{ name: 'description', content: 'Sample' },
+						{ name: 'keywords', content: 'sample, something' },
+					]}
+				>
+					<html lang="en" />
+				</Helmet>
+				<div
+					style={{
+						margin: '0 auto',
+						paddingTop: 0,
+					}}
+				>
+					{children}
+				</div>
+			</>
+		)}
+	/>
 )
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+	children: PropTypes.node.isRequired,
 }
 
 export default Layout
