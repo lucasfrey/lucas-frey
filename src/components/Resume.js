@@ -18,7 +18,11 @@ class Resume extends Component {
 								Responsible for front-end builds in React, Redux and VueJS <br />
 								Subscribed to modern workflows including automation via webpack, BEM implementation with Sass and LESS, and version control via Git and GitLab<br />
 								Experiment HeadlessCMS using Prismic.io and handlebars template engine <br />
-								Ensure code stability using test suites like Jest and implementing CD Pipeline with Buddy
+								Takes on the lead development role in critical projects <br />
+								Implement and manage data-driven Analytics to improve project outcomes<br />
+								Plan and code unit test to build robust and scalable component<br />
+								Ensure code stability using test suites like Jest and implementing CD Pipeline with Buddy <br />
+								Proactively find and create productivity improvements
 							</p>
 						</div>
 						<div key="Heyday1"><h3>Full stack developer</h3>
